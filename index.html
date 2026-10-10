@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TouchGrass AI 🌿</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#">🌿 TouchGrass AI</a>
+    <span class="pill">Open-source AI</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">YOUR NEXT ADVENTURE STARTS HERE</p>
+      <h1>Less scrolling.<br><span>More exploring.</span></h1>
+      <p>Discover nature, complete outdoor missions, and reconnect
+        with the world beyond your screen.</p>
+      <button id="generateBtn">🌱 Generate My Mission</button>
+      <p id="status">Ready for your next adventure?</p>
+    </section>
+
+    <section class="card">
+      <div class="card-heading">
+        <span>YOUR OUTDOOR MISSION</span>
+        <span>🌎</span>
+      </div>
+      <h2 id="missionTitle">Become a Nature Explorer</h2>
+      <p id="missionDescription">
+        Click the button above to discover your first outdoor mission.
+      </p>
+      <div class="tags">
+        <span id="missionDuration">⏱ 10 minutes</span>
+        <span>📵 Screen-free</span>
+      </div>
+      <button id="completeBtn" class="secondary" disabled>
+        ✓ Mark as Completed
+      </button>
+    </section>
+
+    <section class="progress">
+      <h2>Your Nature Journey</h2>
+      <div class="stats">
+        <div class="stat">
+          <span id="completed">0</span>
+          <p>Missions completed</p>
+        </div>
+        <div class="stat">
+          <span id="points">0</span>
+          <p>Nature points</p>
+        </div>
+      </div>
+      <div class="track">
+        <div id="bar"></div>
+      </div>
+      <p id="progressText">Your journey begins today!</p>
+    </section>
+
+    <section class="tip">
+      <span>💚</span>
+      <div>
+        <h3>Remember to touch grass!</h3>
+        <p>Complete your mission in the real world.
+          Your adventure matters more than your screen time.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with 🌿 and open-source AI</footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
